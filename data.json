@@ -1,0 +1,43 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Rock",
+      "lastName": "Star",
+      "email": "rockstar@example.com",
+      "phone": "+91 98765 43210",
+      "image": "https://randomuser.me/api/portraits/men/1.jpg",
+      "address": {
+        "address": "Street 21",
+        "city": "Hyderabad"
+      }
+    },
+    {
+      "id": 2,
+      "firstName": "Ava",
+      "lastName": "Stone",
+      "email": "ava.stone@gmail.com",
+      "phone": "+91 90000 11111",
+      "image": "https://randomuser.me/api/portraits/women/2.jpg",
+      "address": {
+        "address": "Sunset Blvd",
+        "city": "Mumbai"
+      }
+    },
+    
+    {
+      "id": 1,
+      "firstName": "Rock",
+      "lastName": "Star",
+      "email": "rockstar@example.com",
+      "phone": "+91 98765 43210",
+      "image": "https://randomuser.me/api/portraits/men/1.jpg",
+      "address": {
+        "address": "Street 21",
+        "city": "Hyderabad"
+      }
+    
+    }
+
+  ]
+}
