@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .field{
+        width: 80%; 
+        max-width: 600px;
+        
+        /* Optional aesthetics */
+        padding: 20px;
+        border: 2px solid #ccc;
+    }
+</style>
+<body>
+    <form action="submit.php" method="post">
+        <fieldset class="field">
+            <legend>FORMS</legend>
+                <br>
+                <label >Name:</label>
+                <input type="text" value="ENTER NAME"/>
+                <br>
+                <label>Gender:</label>
+      <input type="radio" id="male" name="gender" value="male" checked>
+      <label for="male" style="display:inline;">Male</label>
+      <input type="radio" id="female" name="gender" value="female">
+      <label for="female" style="display:inline;">Female</label>
+            <br>
+      <label for="color">Favorite Color:</label>
+      <input type="color" id="color" name="favcolor" value="#38bdf8">
+    <br>
+        <label>DEPARTMENT:</label>
+      <select name="dept" required>
+        <option>--select the dept--</option>
+        <option value="CSE">CSE</option>
+        <option value="AIDS">AI DS</option>
+        <option value="AIML">AI ML</option>
+        <option value="EEE">EEE</option>
+
+      </select>
+<br>
+      <label value="language" name="lang">Language</label>
+      <input type="checkbox" name="lang" value="English" id="eng"><label for="eng">English</label>
+      <input type="checkbox" name="lang" value="Telugu" id="tel"><label for="tel">Telugu</label>
+      <input type="checkbox" name="lang" value="Hindi" id="hin"><label for="hin">Hindi</label>
+            
+      <br><br>
+      <button type="submit">SUBMIT</button>
+      <button type="reset">RESET</button>
+        </fieldset>
+    </form>
+</body>
+</html>

@@ -172,6 +172,7 @@ CSS RWD (Responsive Web Design)
     <style>
       .box{
         float:left;
+        margin:1%;
         background-color: black;
         color: aliceblue;
         
@@ -180,9 +181,12 @@ CSS RWD (Responsive Web Design)
         background-color: aqua;
         padding: 20px ;
         box-sizing: border-box; 
-flex-grow: 100;
+/* flex-grow: 100; */
         border:5px blue dotted;
         
+      }
+      #lp{
+        clear:left;
       }
         li{
             font-size:xx-large;
@@ -190,10 +194,9 @@ flex-grow: 100;
     </style>
 
     <!-- <div class="box"> -->
-      <div class="box">BOX 1</div><p>Your branch is ahead of 'origin/main' by 2 commits.</p>
-      <div class="box">BOX 2</div><p>Your branch is ahead of 'origin/main' by 2 commits.</p>
-      <div class="box">BOX 3</div><p>Your branch is ahead of 'origin/main' by 2 commits.</p>
-    <!-- </div> -->
+      <div class="box" >BOX 1</div><p>our branch is ahead of 'origin/main' by 2 commits.</p>
+      <div class="box" id="lp">BOX 2</div>
+      <div class="box">BOX 3</div>
 
 
   </body>
